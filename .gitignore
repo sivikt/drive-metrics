@@ -1,0 +1,6 @@
+.idea
+__pycache__
+src/config/gcp-dev-key.json
+.env
+src/nltk_data
+*.log

@@ -1,0 +1,27 @@
+---
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(asctime)s %(levelname)-8s - [%(name)s.%(funcName)s:%(lineno)d] %(message)s"
+    datefmt: "%d-%b-%Y %H:%M:%S:%z"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+
+loggers:
+  urllib3.connectionpool:
+    level: INFO
+    propogate: yes
+
+  google:
+    level: INFO
+    propogate: yes
+
+root:
+  level: DEBUG
+  handlers: [console]

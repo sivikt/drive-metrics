@@ -1,0 +1,7 @@
+requests==2.22.0
+geos==0.2.2
+shapely==1.6.4
+pyyaml==5.1.2
+dateutils==0.6.6
+pytz==2019.3
+timezonefinder==4.1.0

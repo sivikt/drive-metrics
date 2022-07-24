@@ -1,0 +1,8 @@
+requests==2.22.0
+Flask==1.1.1
+flask-restful==0.3.7
+dialogflow==0.6.0
+nameparser==1.0.4
+pyyaml==5.1.2
+dateutils==0.6.6
+nltk==3.4.5

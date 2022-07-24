@@ -1,0 +1,16 @@
+HOST: 'localhost'
+DEBUG: False
+SERVER_PORT: 8080
+DMS:
+    ENDPOINT: 'https://api2.drivemetrics.io'
+GRAPHDB:
+    ENDPOINT: 'http://localhost:7200'
+    USERNAME: 'admin'
+    PASSWORD: 'root'
+    REPOSITORY_ID: 'local_repo'
+    MAIN_TRIPS_DATA_GRAPH: None
+    QA_STATS_DATA_GRAPH: 'http://www.semanticweb.org/dmonto/autology/trips-qa-data'
+DIALOGFLOW:
+    PROJECT_ID: 'diesel-nova-242318'
+    GCP_KEY: 'gcp-dev-key.json' # if not absolute path then it will be treated as relative path to config module
+

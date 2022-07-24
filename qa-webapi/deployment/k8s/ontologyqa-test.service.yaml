@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ontologyqa-svc
+  namespace: ingress-test
+spec:
+  type: LoadBalancer
+  healthCheckNodePort: 30500
+  externalTrafficPolicy: Local
+ 
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      name: ontologyqa-api
+  selector:
+    app: ontologyqa

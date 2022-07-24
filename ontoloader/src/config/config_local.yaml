@@ -1,0 +1,8 @@
+NEO4J_ENDPOINT: 'bolt://neo4j:qwerty@localhost:7687'
+GRAPHDB:
+    ENDPOINT: 'http://localhost:7200'
+    USERNAME: 'admin'
+    PASSWORD: 'root'
+    REPOSITORY_ID: 'test_repo'
+    MAIN_TRIPS_DATA_GRAPH: ''
+BATCH_UPDATE_SIZE: 20

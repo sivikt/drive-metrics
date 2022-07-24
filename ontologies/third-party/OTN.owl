@@ -1,0 +1,4588 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.pms.ifi.uni-muenchen.de/OTN"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.pms.ifi.uni-muenchen.de/OTN">
+    <Prefix name="" IRI="http://www.pms.ifi.uni-muenchen.de/OTN"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ATM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adress_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aggregated_Way"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agricultural_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amusement_Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifical_Non-Agricultural_Vegetated_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_Surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Average_Vehicle_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bare_Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beach_Dune_And_Sand_Plain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blocked_Passage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bowling_Center"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burnt-Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car_Dealership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caravan_Sites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cargo_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City_Hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coach_And_Lorry_Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composite_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Court_House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department_Store"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direction_of_Traffic_Flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dump_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embassy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Call_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Medical_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Vehicle_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exhibition_Or_Conference_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Face"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferry_Connection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferry_Terminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_Brigade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#First_Aid_Post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_And_Housing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forest_and_Semi-Natural_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Form_Of_Way"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Free_Port"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frontier_Crossing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glacier_And_Prepetual_Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golf_Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Urban_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical_Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital_Or_Polyclinic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel_Or_Motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House_Number_Range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial_Or_Commercial_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interchange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intersection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kindergarten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manoeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Height_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Length_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Total_Weight_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Width_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meteorology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mine_Dump_And_Construction_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral_Extraction_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moors_And_Heatland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motoring_Organisation_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountain_Pass_Summit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Grassland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_of_Lanes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Parking_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking_Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petrol_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place_Of_Worship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Port_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priority_Manoeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prohibited_Manoeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Buildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Transport_Junction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Transport_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railway_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railway_Element_Junction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railway_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railways"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recreation_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rent-a-Car_Pickup_Or_Return"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rest_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restricted_Manoeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_And_Rail_Network_And_Associated_Land"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roadside_Diner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Link"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sclerophyllous_vegatation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopping_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ski_Lift_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ski_Resort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparsely_Vegetated_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special_Restriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport_And_Leisure_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stop_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stop_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming_Pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toll_Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tourism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tourist_Attraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tourist_Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Jam_Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Travel_Agency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Travel_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University_Or_College"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urban_Fabric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validity_Period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vantage_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Repair_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warehouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wetland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traditional_Woodland/Shrubs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accident"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atJunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#average_Vehicle_Speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#blocked_Passage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bounding_Edge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#construction_Status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#direction_of_Traffic_Flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#divider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#emergency_Vehicle_Lane"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#endRoadElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ends_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#first_Route_Section"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#first_Stop_Point"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#form_of_Way"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#house_Number_Range"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_Accessible_At"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_Displayed_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location_Reference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximum_Height_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximum_Length_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximum_Number_of_Lanes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximum_Total_Weight_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximum_Width_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#minimum_Number_of_Lanes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#movedRoadElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#number_of_Lanes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#opening_Period"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#road_Surface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#special_Restriction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startRoadElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#starts_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#timetable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toll"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#traffic_Jam_Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#validity_Period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Business_Lunch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Diner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Snack_Served"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accepted_Credit_Cards"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accident_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accident_Id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#alternate_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#blocked_Passage_Location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#blocked_Passage_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#building_Class_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carDealerType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#centimetres"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#construction_stage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#currency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#degree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#divided"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#divider_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#divider_Width"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enclosed_Traffic_Area_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#external_Identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#external_Link"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ferry_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_House_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#free_Parking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Emergency_Vehicle_Lane"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height_of_Pass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#houseNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#house_Number_Structure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intermediate_House_Numbers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intermediate_coordinates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_Military"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#junction_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lane_Dependant_Validity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lanes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#last_House_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#location_Reference_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#location_Reference_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#loop_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximum_Speed_Allowed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#number_of_Rooms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#official_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#park_And_Ride"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#park_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#parking_Facilities_Available"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paved"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#postal_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#public_Accessible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#public_Transport_Mode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#road_Gradient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#road_Surface_Condition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#road_Surface_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#route_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sand_Area_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specific_color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#speed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#starting_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#street_Side"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#suitable_for_disabled"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#time_duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#toll_Charge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#traffic_Jam_Probability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#traffic_flow_Direction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#travel_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type_of_Public_Transportation_Point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vehicle_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#waiting_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#way_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wetherType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#width"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#x"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#y"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#z"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ATM"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accident"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address_Area_Boundry_Element"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#house_Number_Range"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adress_Area"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adress_Area"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adress_Area"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#bounding_Edge"/>
+            <Class IRI="#Address_Area_Boundry_Element"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aggregated_Way"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aggregated_Way"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agricultural_Area"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport"/>
+        <Class IRI="#Stop_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport"/>
+        <Class IRI="#Transfer_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_Area"/>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amusement_Park"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifical_Non-Agricultural_Vegetated_Area"/>
+        <Class IRI="#Artificial_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_Surface"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Average_Vehicle_Speed"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bank"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bare_Rock"/>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach_Dune_And_Sand_Plain"/>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blocked_Passage"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blocked_Passage"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#blocked_Passage_Location"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blocked_Passage"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#blocked_Passage_Type"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bowling_Center"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#building_Class_Name"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burnt-Area"/>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Station"/>
+        <Class IRI="#Stop_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Station"/>
+        <Class IRI="#Transfer_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business_Facility"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camping"/>
+        <Class IRI="#Food_And_Housing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car_Dealership"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caravan_Sites"/>
+        <Class IRI="#Food_And_Housing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cargo_Centre"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casino"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinema"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City_Centre"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City_Hall"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coach_And_Lorry_Parking"/>
+        <Class IRI="#Parking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Centre"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction_Site"/>
+        <Class IRI="#Mine_Dump_And_Construction_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction_Status"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction_Status"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#construction_stage"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Court_House"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department_Store"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direction_of_Traffic_Flow"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direction_of_Traffic_Flow"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#traffic_flow_Direction"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divider"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divider"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#divided"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dump_Site"/>
+        <Class IRI="#Mine_Dump_And_Construction_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge"/>
+        <Class IRI="#Geometric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#ends_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#starts_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embassy"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Call_Station"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Medical_Service"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Vehicle_Lane"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#bounding_Edge"/>
+            <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enclosed_Traffic_Area_Boundry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exhibition_Or_Conference_Centre"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Face"/>
+        <Class IRI="#Geometric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Face"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#bounding_Edge"/>
+            <Class IRI="#Edge"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Face"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#bounding_Edge"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Ferry_Connection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Connection"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Connection"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Connection"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Connection"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Connection"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#length"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry_Terminal"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_Brigade"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First_Aid_Post"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_And_Housing"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forest"/>
+        <Class IRI="#Forest_and_Semi-Natural_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forest_and_Semi-Natural_Area"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Form_Of_Way"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Free_Port"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frontier_Crossing"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glacier_And_Prepetual_Snow"/>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf_Course"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government_Office"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Urban_Area"/>
+        <Class IRI="#Artifical_Non-Agricultural_Vegetated_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Urban_Area"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#park_Type"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historical_Monument"/>
+        <Class IRI="#Tourism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_Or_Polyclinic"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel_Or_Motel"/>
+        <Class IRI="#Restaurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_Number_Range"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_Number_Range"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#first_House_Number"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_Number_Range"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#house_Number_Structure"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_Number_Range"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#last_House_Number"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House_Number_Range"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#street_Side"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+        <Class IRI="#Artificial_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Or_Commercial_Unit"/>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interchange"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interchange"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intersection"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Island"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junction"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junction"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junction"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kindergarten"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land_Cover_And_Use"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land_Cover_And_Use"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Route"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#public_Transport_Mode"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Reference"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Reference"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#location_Reference_Code"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Reference"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#location_Reference_Type"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manoeuvre"/>
+        <Class IRI="#Relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manoeuvre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#atJunction"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manoeuvre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#endRoadElement"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manoeuvre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#startRoadElement"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marina"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Height_Allowed"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Height_Allowed"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#centimetres"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Length_Allowed"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Length_Allowed"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#centimetres"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Total_Weight_Allowed"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Width_Allowed"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Width_Allowed"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#centimetres"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meteorology"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mine_Dump_And_Construction_Site"/>
+        <Class IRI="#Artificial_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mineral_Extraction_Site"/>
+        <Class IRI="#Mine_Dump_And_Construction_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moors_And_Heatland"/>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motoring_Organisation_Office"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountain_Pass_Summit"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Grassland"/>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node"/>
+        <Class IRI="#Geometric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#x"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#y"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_of_Lanes"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_of_Lanes"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#lanes"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Parking_Area"/>
+        <Class IRI="#Parking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Parking_Area"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_Accessible_At"/>
+            <Class IRI="#Road_and_Ferry_Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+        <Class IRI="#Forest_and_Semi-Natural_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Transfer_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking_Garage"/>
+        <Class IRI="#Parking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking_Garage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_Accessible_At"/>
+            <Class IRI="#Road_and_Ferry_Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petrol_Station"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacy"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_Of_Worship"/>
+        <Class IRI="#Public_Buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police_Station"/>
+        <Class IRI="#Emergency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Port_Area"/>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post_Office"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priority_Manoeuvre"/>
+        <Class IRI="#Manoeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prohibited_Manoeuvre"/>
+        <Class IRI="#Manoeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Buildings"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Phone"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport_Junction"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport_Junction"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport_Point"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport_Point"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Transport_Point"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#type_of_Public_Transportation_Point"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element"/>
+        <Class IRI="#Railways"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Railway_Element_Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Railway_Element_Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element_Junction"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Element_Junction"/>
+        <Class IRI="#Railways"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Station"/>
+        <Class IRI="#Stop_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railway_Station"/>
+        <Class IRI="#Transfer_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railways"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recreation_Facility"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rent-a-Car_Pickup_Or_Return"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rest_Area"/>
+        <Class IRI="#Food_And_Housing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Food_And_Housing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restricted_Manoeuvre"/>
+        <Class IRI="#Manoeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Intersection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Intersection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#ends_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#starts_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <DataExactCardinality cardinality="0">
+            <DataProperty IRI="#intermediate_coordinates"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_And_Rail_Network_And_Associated_Land"/>
+        <Class IRI="#Industrial_Commercial_And_Transport_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Surface"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Surface"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#paved"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roadside_Diner"/>
+        <Class IRI="#Restaurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roundabout"/>
+        <Class IRI="#Road_and_Ferry_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roundabout"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Route_Section"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Link"/>
+        <Class IRI="#Edge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Link"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Link"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Public_Transport_Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Link"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Public_Transport_Junction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Link"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#public_Transport_Mode"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Route_Link"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ends_at"/>
+            <Class IRI="#Stop_Point"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Stop_Point"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#contains"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#ends_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Section"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#starts_at"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sclerophyllous_vegatation"/>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#is_Accessible_At"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#alternate_Name"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopping"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopping_Centre"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+        <Class IRI="#Forest_and_Semi-Natural_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ski_Lift_Station"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ski_Resort"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparsely_Vegetated_Area"/>
+        <Class IRI="#Open_Space_With_Little_Or_No_Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_Restriction"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_Restriction"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#public_Accessible"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport_And_Leisure_Facility"/>
+        <Class IRI="#Artifical_Non-Agricultural_Vegetated_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports_Centre"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadium"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop_Area"/>
+        <Class IRI="#Public_Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop_Area"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop_Area"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Stop_Point"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop_Point"/>
+        <Class IRI="#Public_Transport_Junction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop_Point"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming_Pool"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Meteorology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theatre"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#starts_at"/>
+            <Class IRI="#Stop_Point"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#validity_Period"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#loop_Time"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#travel_Time"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toll"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toll"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#currency"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toll"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#toll_Charge"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toll_Location"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tourism"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tourist_Attraction"/>
+        <Class IRI="#Tourism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tourist_Office"/>
+        <Class IRI="#Tourism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Jam_Sensitivity"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Jam_Sensitivity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#traffic_Jam_Probability"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer_Service"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer_Service"/>
+        <Class IRI="#Transfer_Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transport_Company"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Travel_Agency"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Travel_Time"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Travel_Time"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#time_duration"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University_Or_College"/>
+        <Class IRI="#Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urban_Fabric"/>
+        <Class IRI="#Artificial_Surface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validity_Period"/>
+        <Class IRI="#Composite_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validity_Period"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#starting_Date"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validity_Period"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#time_duration"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vantage_Point"/>
+        <Class IRI="#Tourism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle_Repair_Facility"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warehouse"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <Class IRI="#Meteorology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wetland"/>
+        <Class IRI="#Land_Cover_And_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winery"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traditional_Woodland/Shrubs"/>
+        <Class IRI="#Shrubs_Or_Herbaceous_Vegeation_Association"/>
+    </SubClassOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#atJunction"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#endRoadElement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ends_at"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#first_Stop_Point"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#movedRoadElement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#road_Surface"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#startRoadElement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#starts_at"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atJunction"/>
+        <Class IRI="#Manoeuvre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bounding_Edge"/>
+        <Class IRI="#Face"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectUnionOf>
+            <Class IRI="#Aggregated_Way"/>
+            <Class IRI="#Ferry"/>
+            <Class IRI="#Intersection"/>
+            <Class IRI="#Line"/>
+            <Class IRI="#Road"/>
+            <Class IRI="#Route"/>
+            <Class IRI="#Route_Section"/>
+            <Class IRI="#Stop_Area"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#endRoadElement"/>
+        <Class IRI="#Manoeuvre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ends_at"/>
+        <ObjectUnionOf>
+            <Class IRI="#Edge"/>
+            <Class IRI="#Route_Section"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#first_Route_Section"/>
+        <Class IRI="#Route"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#first_Stop_Point"/>
+        <Class IRI="#Route"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_Accessible_At"/>
+        <ObjectUnionOf>
+            <Class IRI="#Land_Cover_And_Use"/>
+            <Class IRI="#Service"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_Displayed_at"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#location_Reference"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#movedRoadElement"/>
+        <Class IRI="#Manoeuvre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opening_Period"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#startRoadElement"/>
+        <Class IRI="#Manoeuvre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#starts_at"/>
+        <ObjectUnionOf>
+            <Class IRI="#Edge"/>
+            <Class IRI="#Route_Section"/>
+            <Class IRI="#Timetable"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#timetable"/>
+        <ObjectUnionOf>
+            <Class IRI="#Ferry_Connection"/>
+            <Class IRI="#Route"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#accident"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atJunction"/>
+        <Class IRI="#Junction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#average_Vehicle_Speed"/>
+        <Class IRI="#Average_Vehicle_Speed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#blocked_Passage"/>
+        <Class IRI="#Blocked_Passage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bounding_Edge"/>
+        <Class IRI="#Edge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#construction_Status"/>
+        <Class IRI="#Construction_Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#direction_of_Traffic_Flow"/>
+        <Class IRI="#Direction_of_Traffic_Flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#divider"/>
+        <Class IRI="#Divider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#emergency_Vehicle_Lane"/>
+        <Class IRI="#Emergency_Vehicle_Lane"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ends_at"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#first_Route_Section"/>
+        <Class IRI="#Route_Section"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#first_Stop_Point"/>
+        <Class IRI="#Stop_Point"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#form_of_Way"/>
+        <Class IRI="#Form_Of_Way"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#house_Number_Range"/>
+        <Class IRI="#House_Number_Range"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Accessible_At"/>
+        <Class IRI="#Transfer_Point"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Displayed_at"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#location_Reference"/>
+        <Class IRI="#Location_Reference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximum_Height_Allowed"/>
+        <Class IRI="#Maximum_Height_Allowed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximum_Length_Allowed"/>
+        <Class IRI="#Maximum_Length_Allowed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximum_Number_of_Lanes"/>
+        <Class IRI="#Number_of_Lanes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximum_Total_Weight_Allowed"/>
+        <Class IRI="#Maximum_Total_Weight_Allowed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximum_Width_Allowed"/>
+        <Class IRI="#Maximum_Width_Allowed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#minimum_Number_of_Lanes"/>
+        <Class IRI="#Number_of_Lanes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#number_of_Lanes"/>
+        <Class IRI="#Number_of_Lanes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#opening_Period"/>
+        <Class IRI="#Validity_Period"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#road_Surface"/>
+        <Class IRI="#Road_Surface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#special_Restriction"/>
+        <Class IRI="#Special_Restriction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#starts_at"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#timetable"/>
+        <Class IRI="#Timetable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#toll"/>
+        <Class IRI="#Toll"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#traffic_Jam_Sensitivity"/>
+        <Class IRI="#Traffic_Jam_Sensitivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#validity_Period"/>
+        <Class IRI="#Validity_Period"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Business_Lunch"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Diner"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Snack_Served"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#accident_Id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#blocked_Passage_Location"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#building_Class_Name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#carDealerType"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#centimetres"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#construction_stage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#currency"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#degree"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#divided"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#divider_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#divider_Width"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#enclosed_Traffic_Area_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#external_Link"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ferry_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#first_House_Number"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#free_Parking"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Emergency_Vehicle_Lane"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#houseNumber"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#house_Number_Structure"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#intermediate_House_Numbers"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#intermediate_coordinates"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_Military"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#junction_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#lane_Dependant_Validity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#lanes"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#last_House_Number"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#length"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#location_Reference_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#maximum_Speed_Allowed"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#number_of_Rooms"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#park_And_Ride"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#park_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#parking_Facilities_Available"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#paved"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#public_Accessible"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#road_Gradient"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#road_Surface_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#specific_color"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#speed"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#street_Side"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#suitable_for_disabled"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#time_duration"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#toll_Charge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#traffic_Jam_Probability"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#travel_Time"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#waiting_Time"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#way_Type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#weight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#wetherType"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#width"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#x"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#y"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Breakfast"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Business_Lunch"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Diner"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Snack_Served"/>
+        <Class IRI="#Restaurant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accepted_Credit_Cards"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accident_Date"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accident_Id"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#alternate_Name"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#blocked_Passage_Location"/>
+        <Class IRI="#Blocked_Passage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#blocked_Passage_Type"/>
+        <Class IRI="#Blocked_Passage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#building_Class_Name"/>
+        <Class IRI="#Building"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carDealerType"/>
+        <Class IRI="#Car_Dealership"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#centimetres"/>
+        <ObjectUnionOf>
+            <Class IRI="#Maximum_Height_Allowed"/>
+            <Class IRI="#Maximum_Length_Allowed"/>
+            <Class IRI="#Maximum_Width_Allowed"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#construction_stage"/>
+        <Class IRI="#Construction_Status"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#currency"/>
+        <Class IRI="#Toll"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#degree"/>
+        <Class IRI="#Temperature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#divided"/>
+        <Class IRI="#Divider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#divider_Type"/>
+        <Class IRI="#Divider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#divider_Width"/>
+        <Class IRI="#Divider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enclosed_Traffic_Area_Type"/>
+        <Class IRI="#Enclosed_Traffic_Area"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#external_Identifier"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#external_Link"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ferry_Type"/>
+        <Class IRI="#Ferry_Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#first_House_Number"/>
+        <Class IRI="#House_Number_Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#free_Parking"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Emergency_Vehicle_Lane"/>
+        <Class IRI="#Emergency_Vehicle_Lane"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#houseNumber"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#house_Number_Structure"/>
+        <Class IRI="#House_Number_Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#intermediate_House_Numbers"/>
+        <Class IRI="#House_Number_Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#intermediate_coordinates"/>
+        <Class IRI="#Edge"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Military"/>
+        <Class IRI="#Airport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#junction_Type"/>
+        <Class IRI="#Junction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lane_Dependant_Validity"/>
+        <ObjectUnionOf>
+            <Class IRI="#Average_Vehicle_Speed"/>
+            <Class IRI="#Blocked_Passage"/>
+            <Class IRI="#Construction_Status"/>
+            <Class IRI="#Emergency_Vehicle_Lane"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lanes"/>
+        <Class IRI="#Number_of_Lanes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#last_House_Number"/>
+        <Class IRI="#House_Number_Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#location_Reference_Code"/>
+        <Class IRI="#Location_Reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#location_Reference_Type"/>
+        <Class IRI="#Location_Reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#loop_Time"/>
+        <Class IRI="#Timetable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#number_of_Rooms"/>
+        <Class IRI="#Hotel_Or_Motel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#park_And_Ride"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#park_Type"/>
+        <Class IRI="#Green_Urban_Area"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#parking_Facilities_Available"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paved"/>
+        <Class IRI="#Road_Surface"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#public_Accessible"/>
+        <Class IRI="#Special_Restriction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#public_Transport_Mode"/>
+        <ObjectUnionOf>
+            <Class IRI="#Line"/>
+            <Class IRI="#Route_Link"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#road_Surface_Condition"/>
+        <Class IRI="#Road_Surface"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#road_Surface_Type"/>
+        <Class IRI="#Road_Surface"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sand_Area_Type"/>
+        <Class IRI="#Beach_Dune_And_Sand_Plain"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#specific_color"/>
+        <Class IRI="#Line"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#speed"/>
+        <Class IRI="#Average_Vehicle_Speed"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#starting_Date"/>
+        <ObjectUnionOf>
+            <Class IRI="#Meteorology"/>
+            <Class IRI="#Validity_Period"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#street_Side"/>
+        <ObjectUnionOf>
+            <Class IRI="#House_Number_Range"/>
+            <Class IRI="#Number_of_Lanes"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#suitable_for_disabled"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_duration"/>
+        <ObjectUnionOf>
+            <Class IRI="#Meteorology"/>
+            <Class IRI="#Travel_Time"/>
+            <Class IRI="#Validity_Period"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#toll_Charge"/>
+        <Class IRI="#Toll"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traffic_Jam_Probability"/>
+        <Class IRI="#Traffic_Jam_Sensitivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traffic_flow_Direction"/>
+        <Class IRI="#Direction_of_Traffic_Flow"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#travel_Time"/>
+        <Class IRI="#Timetable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type_of_Public_Transportation_Point"/>
+        <Class IRI="#Public_Transport_Point"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#waiting_Time"/>
+        <Class IRI="#Timetable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#way_Type"/>
+        <Class IRI="#Form_Of_Way"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Maximum_Total_Weight_Allowed"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wetherType"/>
+        <Class IRI="#Weather"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#x"/>
+        <Class IRI="#Node"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#y"/>
+        <Class IRI="#Node"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#z"/>
+        <Class IRI="#Node"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Breakfast"/>
+        <DataOneOf>
+            <Literal>Available</Literal>
+            <Literal>Not_Available</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Business_Lunch"/>
+        <DataOneOf>
+            <Literal>Available</Literal>
+            <Literal>Not_Available</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Diner"/>
+        <DataOneOf>
+            <Literal>Available</Literal>
+            <Literal>Not_Available</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Snack_Served"/>
+        <DataOneOf>
+            <Literal>Available</Literal>
+            <Literal>Not_Available</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#accepted_Credit_Cards"/>
+        <DataOneOf>
+            <Literal>Maestro</Literal>
+            <Literal>Mastercard</Literal>
+            <Literal>VISA</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#accident_Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#accident_Id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#alternate_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#blocked_Passage_Location"/>
+        <DataOneOf>
+            <Literal>at_End_Junction</Literal>
+            <Literal>at_Start_Junction</Literal>
+            <Literal>between_Start_and_End_Junction</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#blocked_Passage_Type"/>
+        <DataOneOf>
+            <Literal>permanently_fixed</Literal>
+            <Literal>removable</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#building_Class_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carDealerType"/>
+        <DataOneOf>
+            <Literal>Repair_Facility</Literal>
+            <Literal>Sales_And_Repair_Facility</Literal>
+            <Literal>Sales_Facility</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#centimetres"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#construction_stage"/>
+        <DataOneOf>
+            <Literal>Planned</Literal>
+            <Literal>Under-Construction-Closed</Literal>
+            <Literal>Under_Construction-Open</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#currency"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#degree"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#divided"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#divider_Type"/>
+        <DataOneOf>
+            <Literal>Legal_Divider</Literal>
+            <Literal>Physical_divider;Crossable</Literal>
+            <Literal>Physical_divider;Not_Crossable</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#divider_Width"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enclosed_Traffic_Area_Type"/>
+        <DataOneOf>
+            <Literal>Another_Type</Literal>
+            <Literal>Parking_Building</Literal>
+            <Literal>Parking_Place</Literal>
+            <Literal>Unstructured_Traffic_Square</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#external_Identifier"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#external_Link"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ferry_Type"/>
+        <DataOneOf>
+            <Literal>Hovercraft</Literal>
+            <Literal>Ship</Literal>
+            <Literal>Train</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#first_House_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#free_Parking"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Emergency_Vehicle_Lane"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height_of_Pass"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#houseNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#house_Number_Structure"/>
+        <DataOneOf>
+            <Literal>Irregular</Literal>
+            <Literal>No_House_Numbers</Literal>
+            <Literal>Regular_with_even_numbers</Literal>
+            <Literal>Regular_with_odd_and_even_numbers</Literal>
+            <Literal>Regular_with_odd_numbers</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#intermediate_House_Numbers"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#intermediate_coordinates"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_Military"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#junction_Type"/>
+        <DataOneOf>
+            <Literal>Border_Crossing</Literal>
+            <Literal>Mini-Roundabout</Literal>
+            <Literal>Railway_Crossing</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lane_Dependant_Validity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lanes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#last_House_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#length"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#location_Reference_Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#location_Reference_Type"/>
+        <DataOneOf>
+            <Literal>Other</Literal>
+            <Literal>RDS</Literal>
+            <Literal>TMC</Literal>
+            <Literal>VICS</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#loop_Time"/>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maximum_Speed_Allowed"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#number_of_Rooms"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#official_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#park_And_Ride"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#park_Type"/>
+        <DataOneOf>
+            <Literal>Cemetry</Literal>
+            <Literal>City_Park</Literal>
+            <Literal>Country_Park</Literal>
+            <Literal>National_Park</Literal>
+            <Literal>Other</Literal>
+            <Literal>Regional_Park</Literal>
+            <Literal>State/Provincial_Park</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#parking_Facilities_Available"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#paved"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#postal_Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#public_Accessible"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#public_Transport_Mode"/>
+        <DataOneOf>
+            <Literal>Airplane</Literal>
+            <Literal>Bus</Literal>
+            <Literal>Light_Rail</Literal>
+            <Literal>Rail</Literal>
+            <Literal>Underground</Literal>
+            <Literal>Urban_Rail</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#road_Gradient"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#road_Surface_Condition"/>
+        <DataOneOf>
+            <Literal>Good</Literal>
+            <Literal>Pure</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#road_Surface_Type"/>
+        <DataOneOf>
+            <Literal>Blocks</Literal>
+            <Literal>Dirt</Literal>
+            <Literal>Flexible</Literal>
+            <Literal>Gravel</Literal>
+            <Literal>Rigid</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#route_Number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sand_Area_Type"/>
+        <DataOneOf>
+            <Literal>Beach/Dune</Literal>
+            <Literal>Desert</Literal>
+            <Literal>Other</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#specific_color"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#speed"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#starting_Date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#street_Side"/>
+        <DataOneOf>
+            <Literal>Left</Literal>
+            <Literal>Right</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#suitable_for_disabled"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#time_duration"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#toll_Charge"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#traffic_Jam_Probability"/>
+        <DataOneOf>
+            <Literal>High</Literal>
+            <Literal>Low</Literal>
+            <Literal>Medium</Literal>
+            <Literal>No</Literal>
+            <Literal>Very_High</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#traffic_flow_Direction"/>
+        <DataOneOf>
+            <Literal>Both_Directions</Literal>
+            <Literal>Negative_Direction</Literal>
+            <Literal>No_Direction</Literal>
+            <Literal>Positive_Direction</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#travel_Time"/>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type_of_Public_Transportation_Point"/>
+        <DataOneOf>
+            <Literal>Activation_Point</Literal>
+            <Literal>Break_Facility</Literal>
+            <Literal>Parking_Point</Literal>
+            <Literal>Relief_Point</Literal>
+            <Literal>Timing_Point</Literal>
+            <Literal>Traffic_Control_Point</Literal>
+            <Literal>Turn_Station</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vehicle_Type"/>
+        <DataOneOf>
+            <Literal>4_Wheel_Drive_Vehicle</Literal>
+            <Literal>All_Vehicles</Literal>
+            <Literal>Bicycle</Literal>
+            <Literal>Car_with_Trailer</Literal>
+            <Literal>Delivery_Truck</Literal>
+            <Literal>Emergency_Vehicle</Literal>
+            <Literal>Employee_vehicle</Literal>
+            <Literal>Facility_Vehicle</Literal>
+            <Literal>Farm_Vehicle</Literal>
+            <Literal>High_Occupancy_Vehicle</Literal>
+            <Literal>Light_Rail</Literal>
+            <Literal>Mail_Vehicle</Literal>
+            <Literal>Military_Vehicle</Literal>
+            <Literal>Moped</Literal>
+            <Literal>Motorcyle</Literal>
+            <Literal>Passenger_Cars</Literal>
+            <Literal>Pedestrian</Literal>
+            <Literal>Private_Bus</Literal>
+            <Literal>Public_Bus</Literal>
+            <Literal>Residential</Literal>
+            <Literal>School_Bus</Literal>
+            <Literal>Tanker</Literal>
+            <Literal>Taxi</Literal>
+            <Literal>Transportation_Truck</Literal>
+            <Literal>Trolley_Bus</Literal>
+            <Literal>Vehicle_carrying_snow_chains</Literal>
+            <Literal>Vehicle_for_disabled_persons</Literal>
+            <Literal>Vehicles_with_a_water-polluting_load</Literal>
+            <Literal>Vehicles_with_an_explosive_load</Literal>
+            <Literal>Vehicles_with_other_dangerous_loads</Literal>
+            <Literal>not_4_Wheel_Drive_Vehicle</Literal>
+            <Literal>not_Bicycle</Literal>
+            <Literal>not_Car_with_Trailer</Literal>
+            <Literal>not_Delivery_Truck</Literal>
+            <Literal>not_Emergency_Vehicle</Literal>
+            <Literal>not_Employee_vehicle</Literal>
+            <Literal>not_Facility_Vehicle</Literal>
+            <Literal>not_Farm_Vehicle</Literal>
+            <Literal>not_High_Occupancy_Vehicle</Literal>
+            <Literal>not_Light_Rail</Literal>
+            <Literal>not_Mail_Vehicle</Literal>
+            <Literal>not_Military_Vehicle</Literal>
+            <Literal>not_Moped</Literal>
+            <Literal>not_Motorcyle</Literal>
+            <Literal>not_Passenger_Cars</Literal>
+            <Literal>not_Pedestrian</Literal>
+            <Literal>not_Private_Bus</Literal>
+            <Literal>not_Public_Bus</Literal>
+            <Literal>not_Residential</Literal>
+            <Literal>not_School_Bus</Literal>
+            <Literal>not_Tanker</Literal>
+            <Literal>not_Taxi</Literal>
+            <Literal>not_Transportation_Truck</Literal>
+            <Literal>not_Trolley_Bus</Literal>
+            <Literal>not_Vehicle_carrying_snow_chains</Literal>
+            <Literal>not_Vehicle_for_disabled_persons</Literal>
+            <Literal>not_Vehicles_with_a_water-polluting_load</Literal>
+            <Literal>not_Vehicles_with_an_explosive_load</Literal>
+            <Literal>not_Vehicles_with_other_dangerous_loads</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#waiting_Time"/>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#way_Type"/>
+        <DataOneOf>
+            <Literal>Enclodes_Traffic_Area</Literal>
+            <Literal>Entrance_or_exit_to_Service</Literal>
+            <Literal>Entrance_or_exit_to_a_car_park</Literal>
+            <Literal>Motorway</Literal>
+            <Literal>Multiple_Carriageway_which_is_not_a_motorway</Literal>
+            <Literal>Pedestrian_Zone</Literal>
+            <Literal>Roundabout_Circle</Literal>
+            <Literal>Service_Road</Literal>
+            <Literal>Single_Carriageway</Literal>
+            <Literal>Slip_Road</Literal>
+            <Literal>Traffic_Square</Literal>
+            <Literal>Walkway_not_passable_for_Vehicles</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wetherType"/>
+        <DataOneOf>
+            <Literal>dew</Literal>
+            <Literal>hail</Literal>
+            <Literal>rain</Literal>
+            <Literal>shiver</Literal>
+            <Literal>sleet</Literal>
+            <Literal>snow</Literal>
+            <Literal>storm</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#width"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#x"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#y"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#z"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ATM</IRI>
+        <Literal>A computer terminal that allows bank customers to deposit, withdraw, or transfer funds without the assistance of a bank teller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accident</IRI>
+        <Literal>Information about an accident registered by an appropiate organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Address_Area_Boundry_Element</IRI>
+        <Literal>An Adress Area Boundry Element describes the outer confinement of an Address Area. An Adress Area Boundry Element is start and end bounded with the road network.
+At least one of the edges defining the complete boundry of an Address Area has also to be referenced by a Road Element which is connected to the rest of the road network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adress_Area</IRI>
+        <Literal>An area containing addresses which cannot be related to one ore more Road Element.
+
+- In certain situations addresses are defined in a square, which has a name that is different from the name of the Road Element representing the road network on that square.
+- The addresses are defined according to building blocks. In these cases a building block has a name which differs from the name of an adjancent building vlock and of the Road Element which possibly divides the two building blocks.
+An Adress Area should always have a connection with the road network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agricultural_Area</IRI>
+        <Literal>Vegetated area that is cultivated to grow crops or fruits, or used for grazing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Airport</IRI>
+        <Literal>An airfield which accomodates either cargo or passenger traffix of a commercial or private nature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Airport_Area</IRI>
+        <Literal>Area covered with airport installations: runways, buildings and associated land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Amusement_Park</IRI>
+        <Literal>A park that contains rides or other entertainment which may be based on a central theme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Artifical_Non-Agricultural_Vegetated_Area</IRI>
+        <Literal>Cultivated area with vegetation dedicated to leisure, sports and recreation activities or used as cemetry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Artificial_Surface</IRI>
+        <Literal>Surface modified by humans, usually resulting from construction activities, and created to serve dedicated purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Average_Vehicle_Speed</IRI>
+        <Literal>The average speed of vehicles travelling along a Road Element (km/h)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bank</IRI>
+        <Literal>An institute for the transaction of the monetary services. 
+In some countries the building societies and some post offices may be incorparated into this category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bare_Rock</IRI>
+        <Literal>Scree, cliffs, rocks and outcrops.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beach_Dune_And_Sand_Plain</IRI>
+        <Literal>Beaches, dunes and expanses of sand or pebbles in coastal or continental locations, including beds of stream channels with torrebtial regime.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blocked_Passage</IRI>
+        <Literal>Indication of a physical barrier on a Road Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bowling_Center</IRI>
+        <Literal>A facility designed for bowling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Building</IRI>
+        <Literal>Man made structure or structure occupied by people or goods. 
+Building is included to represent the physical presence of these structures. Neighbouring buildings can be grouped into one single building Feature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burnt-Area</IRI>
+        <Literal>Areas affected by recent fires, still mainly black.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal>A terminus where a person may board either a local bus service or a long distance or a national/international coach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Business_Facility</IRI>
+        <Literal>Location where the main activities of a particular business activity are concentrated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Camping</IRI>
+        <Literal>An official site where a tent may be pitched. The site need not be for sole use by tents.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Car_Dealership</IRI>
+        <Literal>An establishment that sells cars.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Caravan_Sites</IRI>
+        <Literal>An official site where a caravan may be pitched. The site need not be for sole use by caravans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cargo_Centre</IRI>
+        <Literal>An access point for non-passenger goods, such as within an airport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Casino</IRI>
+        <Literal>An establishemnt whose primary purpose is providing facilities for gambling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cinema</IRI>
+        <Literal>A facility used for showing movies to a large audience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City_Centre</IRI>
+        <Literal>This Position which adequately describes a central activity point of a settlement. It will typically be the town hall, central train station or other central activity centre (i.e. church or pedestrian district).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City_Hall</IRI>
+        <Literal>City or Town Council Offices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coach_And_Lorry_Parking</IRI>
+        <Literal>A car park restricted for Coach and Lorry use only.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Community_Centre</IRI>
+        <Literal>Facilities and activites for the benefit of local community only. They typically cater to special interest groups, such as youth, elderly, or &apos;handicapped&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Construction_Site</IRI>
+        <Literal>Spaces under construction development, soil or bedrock excavations, earthworks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Construction_Status</IRI>
+        <Literal>Whether a Feature is currently under construction or in the planning stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Court_House</IRI>
+        <Literal>A building that houses courts of law.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Department_Store</IRI>
+        <Literal>A large shop which sells different types of goods from within the one shop.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direction_of_Traffic_Flow</IRI>
+        <Literal>The direction(s) of traffic flow allowed on a Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Divider</IRI>
+        <Literal>Information about the existence of a physical or legal divieder along a Road Element which is not expressed by the individual Features.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dump_Site</IRI>
+        <Literal>Area covered with Landfill or mine dump sites, industrial or public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Embassy</IRI>
+        <Literal>The office or residence of the ambassador and entourage of a foreign country.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_Call_Station</IRI>
+        <Literal>A free emergency telephone with direct line to an emergeny service centre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_Medical_Service</IRI>
+        <Literal>A location where mobile medical help is stationed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_Vehicle_Lane</IRI>
+        <Literal>Indicates that the associated Road Element has a seperate Emergency Vehicle Lane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Enclosed_Traffic_Area_Boundry</IRI>
+        <Literal>An Enclosed Traffic Area Boundry describes the outer confinement of an Enclosed Traffic Area. An Enclosed Traffic is start and end bounded with the road network.
+At least one of the edges defining the complete boundry of an Enclosed Traffic has also to be referenced by a Road Element which is connected to the rest of the road network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exhibition_Or_Conference_Centre</IRI>
+        <Literal>Large buildings where large public shows, or large groups of people whould meet for consultation or discussion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ferry_Terminal</IRI>
+        <Literal>The access point or check-in area for a given ferry company.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_Brigade</IRI>
+        <Literal>A location where mobile crews and vehicles for firefighting and rescue operations are stationed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#First_Aid_Post</IRI>
+        <Literal>A location where First Aid is available.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forest</IRI>
+        <Literal>Vegetation formation composed principally of trees, including shrub and bush understories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forest_and_Semi-Natural_Area</IRI>
+        <Literal>Vegetated area covered with trees and/or bushy vegetation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Form_Of_Way</IRI>
+        <Literal>Certain aspects of the physical form that a Road Element takes. It is based on a number of certain physical and traffic properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Free_Port</IRI>
+        <Literal>A shop or facility where products can be purchased under a reduced tarif structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frontier_Crossing</IRI>
+        <Literal>A border post between two countries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Glacier_And_Prepetual_Snow</IRI>
+        <Literal>Land covered with glaciers or permanent snowfields.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Golf_Course</IRI>
+        <Literal>A facility designated and maintained for playing golf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Government_Office</IRI>
+        <Literal>An office for local, regional or national government activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Green_Urban_Area</IRI>
+        <Literal>Area with vegetation within urban fabric. Includes parks and cemetries with vegetation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Historical_Monument</IRI>
+        <Literal>A building, monument, or site with important historical or cultural value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hospital_Or_Polyclinic</IRI>
+        <Literal>A place where medical and surgical treatment is provided for ill and injured persons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hotel_Or_Motel</IRI>
+        <Literal>An establishement where lodging is available to all memebers of the public for one or more nights. The nature of the establishement need not be strictly a hotel. Places such as public houses, guesthouses and inns with available rooms may be included in this feature. It excludes establishments offering accomondations to special needs groups such as socially disadvantaged persons. Also exluded are prival rental accomondation establishments and holiday homes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#House_Number_Range</IRI>
+        <Literal>The set of house numbers that is related to one side of a particular road element or to a particular Address Area Boundry Element.
+It is a comma seperated list of numbers from the first to the last house number of the element, excluding the first and last number.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Industrial_Commercial_And_Transport_Unit</IRI>
+        <Literal>Artifical surface and infrastructure associated with transportation and/or an industrial activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Industrial_Or_Commercial_Unit</IRI>
+        <Literal>Artifically surfaced areas (with concrete, asphalt, tarmacadam, or stabilised, eg. beaten earth) devoid of vegetation, occupy most of the area in question, which also contains biuldings and/or vegetated areas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intersection</IRI>
+        <Literal>The Level 2 representation of a crossing which bounds a Road or a Ferry.  It is a Complex Feature composed of one or more Level 1 Junctions, Road Elements and Enclosed Traffic Areas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Island</IRI>
+        <Literal>An area surrounded by water, possibly connected to other land by means of a bridge or tunnel accessible by ferry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junction</IRI>
+        <Literal>A feature that bounds a Road Element or a Ferry Connection.  A Road Element or Ferry Connection always forms a connection between two Junctions and, a Road Element or Ferry Connection is always bounded by exactly two Junctions.  A Junction feature represents the physical connection between it’s adjoining Road Elements and Ferry Connections.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kindergarten</IRI>
+        <Literal>A location for pre-school education.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Land_Cover_And_Use</IRI>
+        <Literal>Land Cover And Use provide contextual information about the coverage of the earth&apos;s surface. Many of the Land Cover And Use types are hierarchical in structure, being further subdivided into subtypes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Library</IRI>
+        <Literal>A place in which literary, musical, artists, or reference materials are kept for use and circulation, but are not for sale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Line</IRI>
+        <Literal>In most cases, the complex Featue Line consists of two Routes, one for each direction on the Line. If alternative routes are defined a Line can have more than two Routes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location_Reference</IRI>
+        <Literal>The location reference code of a certain location according to a certain location referencing system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marina</IRI>
+        <Literal>A docking and service facility for pleasure craft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maximum_Height_Allowed</IRI>
+        <Literal>The maximum height limit of a vehicle that may use the Feature. The limit is normally set by a physical obstruction such as a bridge or tunnel, or a legal restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maximum_Length_Allowed</IRI>
+        <Literal>The legal maximum length of a vehicle that may use the Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maximum_Total_Weight_Allowed</IRI>
+        <Literal>The maximum total weight of a vehicle that may use the Feature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maximum_Width_Allowed</IRI>
+        <Literal>The maximum width limit of a vehicle that may use the Feature. The limit is normally set by a physical obstruction such as a bridge or a legal restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meteorology</IRI>
+        <Literal>Meteorology is the scientific study of the atmosphere that focuses on weather processes and forecasting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mine_Dump_And_Construction_Site</IRI>
+        <Literal>Surface resulting from excavation, mine dump or landfill.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mineral_Extraction_Site</IRI>
+        <Literal>Areas with open-pit extraction of industrial minerals (sandpits, quarries) or other minerals (open cast mines). Includes flooded gravel pits, except for river-bed extraction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moors_And_Heatland</IRI>
+        <Literal>Vegetation with low and closed cover, dominated by bushes,shrubs and herbaceaous plants (heath, briars, broom, gorse, laburnum, etc.).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motoring_Organisation_Office</IRI>
+        <Literal>A national club or subscription-based organisation offering services and facilities for motorists.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mountain_Pass_Summit</IRI>
+        <Literal>Point of greatest altitude of a mountain pass.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Museum</IRI>
+        <Literal>A building or place for the preservation and/or exhibition of artistic, historic or scientific objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Natural_Grassland</IRI>
+        <Literal>Low productivity grassland. Often situated in areas of rough uneven ground. Frequently includes rocky areas, briars and heathland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Number_of_Lanes</IRI>
+        <Literal>The Number of Lanes Attribute refers to the total number of lanes associated with one particular driving direction which are present on a certain Road Element. If this Attribute appears once with one Road Element without a side indication, it indicates that both driving directions have the same number of lanes or, in case there is only one driving direction, the total number of lanes. In case two different driving directions on a Road Element have a differernt number of lanes, each number can be specified by a different Attribute Value in combination with side indication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Open_Parking_Area</IRI>
+        <Literal>Ground-level car and commercial vehicle parking locations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Open_Space_With_Little_Or_No_Vegetation</IRI>
+        <Literal>Area with little or no vegetation, such as sandy or rocky areas, permanent ice or snow, or sparsely vegetated high altitude areas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parking_Garage</IRI>
+        <Literal>A car park typically within a building. May be subterranean or multi-storey.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Petrol_Station</IRI>
+        <Literal>A garage or service station offering petrol for sale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pharmacy</IRI>
+        <Literal>Where general drugs and remedies to the general public are saled.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place_Of_Worship</IRI>
+        <Literal>A building where a member of the general public may go for prayer or to take part in a religious service.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Police_Station</IRI>
+        <Literal>An office or facility for the police.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Port_Area</IRI>
+        <Literal>Area covered with infrstructure of Port Area, including quays, dockyards and marinas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Post_Office</IRI>
+        <Literal>A public facility that provides postal or telecommunication services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Public_Phone</IRI>
+        <Literal>A phone which is available for public use. It may be within a building or on the street. It might be coin-operated or card-operated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Public_Transport</IRI>
+        <Literal>All elements regarding the public transportation network are grouped ina Feature Theme called Public Transport. Thise theme contains all the public transport basic Features that can be related with a geometrical position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Public_Transport_Junction</IRI>
+        <Literal>A Public Transportation Junction is located at the intersection of two or more Route Links, or at the end of a dead end Route Link. A Public Transportation Junction should be introduced at the location where three or more Route Links meet. This happens when e.g. two Routes branch off.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Public_Transport_Point</IRI>
+        <Literal>All public transportation locations can be described by Public Transport Points. This point can have a clear physical meaning, like an activation point or a measuring point, but this is not required. The Attribute Public Transport Point Type will indicate the point type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Railway_Element</IRI>
+        <Literal>A Railway Element is the smallest independant part of the railway network, and is bounded by two Railway Element Junctions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Railway_Element_Junction</IRI>
+        <Literal>The location where three or more Railway Elements meet or where Railway Elements ends.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Railway_Station</IRI>
+        <Literal>A facility for loading and unloading passengers and goods travelling on a rail network.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Railways</IRI>
+        <Literal>Railways are similar to roads in that their constituent elements together form a network. A railway network may therefore be considered to be made up pf o number of Railway Elements that are connected by means Railway Element Junctions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recreation_Facility</IRI>
+        <Literal>An outdoor area of land designated as open to the public for general recreation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rent-a-Car_Pickup_Or_Return</IRI>
+        <Literal>Site where to pick up or return rental cars.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rest_Area</IRI>
+        <Literal>A service located along freeways offering ine or more recreational facilites or service functions to the car driver.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Restaurant</IRI>
+        <Literal>Any establishment offering meals for payment including site down meals or fast food take-aways. Hotels or Public Houses may be included in this Feature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road_And_Rail_Network_And_Associated_Land</IRI>
+        <Literal>Areas covered with motorways, railways, including associated installations (stations, platforms, embankments).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road_and_Ferry_Feature</IRI>
+        <Literal>The road network is seen here primarily from the viewport of transportation and traffic. Ferry connections are therefore placed together with  road network elements in one theme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Roadside_Diner</IRI>
+        <Literal>A roadside location where parking is available and meals are served.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Route</IRI>
+        <Literal>A route is a grouping of Route Sections in order to form physical path that a public transport vehicle can follow. A public transport line will normally have one Route in each direction. Alternative routes could be defined for the exceptional circumstances (e.g. one day a week when the bus follows a different path)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Route_Link</IRI>
+        <Literal>A Route Link can be part of serveral public transport routes. A Route Link has one Public Transport Junction at each end. Since Route Links are the smallest unit of the Public Transport network, they may not overlap with other Route Links. In the case where two or more routes share the same physical path, only one Route Links should be defined. This Route Link will be shared by multiple Routes.
+Compared to the original GDF-Format a Stop Point is also a Public Transport Junction. Thus a Route Link in GDF is splitted at each Stop Point into two parts. With this movement along a part can be realised.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Route_Section</IRI>
+        <Literal>A Route_Section is the way between two Stop Points in a route.
+It is added to the GDF-Scheme to have the possibility to add timetables to Routes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#School</IRI>
+        <Literal>A building or location used for instructional classes. (See also Unversity or College).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sclerophyllous_vegatation</IRI>
+        <Literal>Bushy sclerophyllous vegetation. Includes maquis and garrigue.
+Marquis: a dense vegetation associated composed of a number of shrubs associated with siliceous soils in the Mediterranean environment.
+Garrigue:
+discontinous bushy associations of Mediterranean clcareous plateaus. Generally composed of kermes oaks, arbutus, lavender, thyme, cistus, etc. Many include a few isolated trees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Service</IRI>
+        <Literal>Service is a generic term for an activity at a specific location. It is important to notice that a Service represents an ACTIVITY and NOT the building in which this activity (possibly) takes place.
+Many services are particulary relevant to the road environement, szcg as recreation, vehicle maintenance, emergency services or cargo, customs and retail services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shopping_Centre</IRI>
+        <Literal>A large purpose-built building within many individual shops trade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shrubs_Or_Herbaceous_Vegeation_Association</IRI>
+        <Literal>Bushy vegetation, generally with low cover and with no or scattered trees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ski_Lift_Station</IRI>
+        <Literal>The start point of a ski lifr.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ski_Resort</IRI>
+        <Literal>A down hill or cross-country ski facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sparsely_Vegetated_Area</IRI>
+        <Literal>Includes steppes, tundra and badlands. Scattered high-attitude vegetation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Special_Restriction</IRI>
+        <Literal>Special legal restrictions placed upon the use of a particular Road Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sport_And_Leisure_Facility</IRI>
+        <Literal>Area with camping ground, sport ground, leisure park, golf course, racecourse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sports_Centre</IRI>
+        <Literal>An indoor sports facility or an outdoor location where any sport such as golf, riding, sailing etc. may be enjoyed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stadium</IRI>
+        <Literal>An athletic or sports ground with tiers of seats for spectactors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stop_Area</IRI>
+        <Literal>Stop Areas are defined as a collection of stop points where passangers can change lines at walking distance. Typically stop areas are bus stations or several bus stops at a single intersection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stop_Point</IRI>
+        <Literal>Stop Points are modelled differently than Public Transport Points because of their relation to Road Elements and Services. This will be typical place where one can change transport mode in a mutli-modal environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Swimming_Pool</IRI>
+        <Literal>A facility specially designed for swimming or related water activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Theatre</IRI>
+        <Literal>A building or an outdoor area where performances of drama are given.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Timetable</IRI>
+        <Literal>A timetable contains information about all departure times for public transportation or ferry vehicles on a Route Section, or on a Ferry Connection. 
+Beside the start time, the timetable also contains information about the waiting time and the duration needed to travel along this section.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Toll</IRI>
+        <Literal>Fee to be paid in a certain currency to travel on (a section of) a toll road</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Toll_Location</IRI>
+        <Literal>The location where a fee is paid to travel on a road.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tourist_Attraction</IRI>
+        <Literal>Any phsical or natural Feature that may be of interest to a tourist.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tourist_Office</IRI>
+        <Literal>A location where advice can be obtained on local or national tourist attractions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Traffic_Jam_Sensitivity</IRI>
+        <Literal>Probability of a traffic jam on a Road Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transfer_Point</IRI>
+        <Literal>This will be typical place where one can change transport mode or access a feature in a mutli-modal environment, e.g. stations, airports or car parks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transfer_Service</IRI>
+        <Literal>This is a service where one can change transport mode in a mutli-modal environment, e.g. stations, airports or car parks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transport_Company</IRI>
+        <Literal>A transport company&apos;s offices or cargo points where transport services of cargo on road, rail, water or air are offered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Travel_Agency</IRI>
+        <Literal>An office that sells tickets for travel by rail, road, air or water for local, national or international travel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Travel_Time</IRI>
+        <Literal>The one-way travel time that a Ferry Connection takes to complete journey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_Or_College</IRI>
+        <Literal>An institution of higher education.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Urban_Fabric</IRI>
+        <Literal>Area where most of the land is covered by buildings, roads and artificially surfaced areas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Validity_Period</IRI>
+        <Literal>The period, for which a value defined in a attribute is valid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vantage_Point</IRI>
+        <Literal>A location specifically designated as having a scenic view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle_Repair_Facility</IRI>
+        <Literal>A garage or service station open to the public where repairs on a vehicle are carried out.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Warehouse</IRI>
+        <Literal>A large building within which any goods or items may be stored for the short or long term.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wetland</IRI>
+        <Literal>Inland or coastal area seasonally, tidally or permanently waterlogged.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Winery</IRI>
+        <Literal>A facility for wine making, which also include wine tasting, wine sales, and winery tours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zoo</IRI>
+        <Literal>A location where wild animals are kept for educational reasons, and which is open for the public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#accepted_Credit_Cards</IRI>
+        <Literal>A list of recogniced credit cards accepted by the service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#accident</IRI>
+        <Literal>see Accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#accident_Date</IRI>
+        <Literal>The date of an accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#accident_Id</IRI>
+        <Literal>A unique alphanumeric identifier, ascribing to an Accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#alternate_Name</IRI>
+        <Literal>The name of a Feature that has no official status but is used or known by the general public</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#average_Vehicle_Speed</IRI>
+        <Literal>See Average_Vehicle_Speed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#blocked_Passage</IRI>
+        <Literal>see Blocked_Passage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#blocked_Passage_Location</IRI>
+        <Literal>Indication of a phyisical obstruction on a Road Element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#blocked_Passage_Type</IRI>
+        <Literal>The type of a blocked passage as an indication of the fact whether it is removable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#building_Class_Name</IRI>
+        <Literal>The functional or architectural description of the Building, e.g. Church or Tower.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#construction_Status</IRI>
+        <Literal>See Construction_Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#construction_stage</IRI>
+        <Literal>see Construction_Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#currency</IRI>
+        <Literal>The national currency in which a certain payment can be made</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#degree</IRI>
+        <Literal>the temperature in degrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#direction_of_Traffic_Flow</IRI>
+        <Literal>See Direction_of_Traffic_Flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#divided</IRI>
+        <Literal>An Indication of the presence of a physical or legal divider which seperates opposing lanes of traffic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#divider</IRI>
+        <Literal>See Divider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#divider_Type</IRI>
+        <Literal>Classification of the divider along the Road Element.
+
+Tram tracks which divide opposing lanes of traffic and which have no curbs should be classified as &quot;Physical_divider;Crossable&quot;
+
+A solid painted line dividing opposing lanes of traffic should be classified as &quot;Legal Divider&quot;
+
+The divider dividing the carriageways of a Motorway should be classified as &quot;Physical_divider;Not_Crossable&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#divider_Width</IRI>
+        <Literal>The width of the divider along the Road_Element expressed in meters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#emergency_Vehicle_Lane</IRI>
+        <Literal>See Emergency_Vehicle_Lane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enclosed_Traffic_Area_Type</IRI>
+        <Literal>The type of the enclosed Traffic Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#external_Identifier</IRI>
+        <Literal>A unique alphanumeric Identifier ascribed to a particular Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#external_Link</IRI>
+        <Literal>A link to an external ressource containing further informations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ferry_Type</IRI>
+        <Literal>The subclass of, or the type of a Ferry Connection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#first_Route_Section</IRI>
+        <Literal>if the route is a circular route, two different Route_Sections join at the given route_Start_Stop_Point. So if the route is a circular route, this attribute must be given to determin which of those two route_Sections is the first.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#first_Stop_Point</IRI>
+        <Literal>Indication of the Stop_Point the Route starts at. It is necessary to follow the path of the route in OWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#form_of_Way</IRI>
+        <Literal>See Form_of_Way</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#free_Parking</IRI>
+        <Literal>whether one can park free or the parking facility is charged</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Emergency_Vehicle_Lane</IRI>
+        <Literal>indicates whether a Road_Element has an Emergency_Vehicle_Lane or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#height_of_Pass</IRI>
+        <Literal>The maximum altitude in metres of any point along a given Road_Element, if it has been identified as a mountain pass.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#houseNumber</IRI>
+        <Literal>any number or number range that specifies the house number(s) associated to a Service.
+Any combination of numbers, letters or punctation which forms a valid house number within an address, e.g. 12, 39B, 2300-2360</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#house_Number_Range</IRI>
+        <Literal>See House_Number_Range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#house_Number_Structure</IRI>
+        <Literal>The type of house numbering method that is applied to one side of a particular Road Element or to a particular Adress Boundry Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#intermediate_House_Numbers</IRI>
+        <Literal>The main intention of Intermediate House Numbers is to add detail when the House Number Structure is irregular. It stores all the numbers of one side of the Road Element / Adress Boundry Element between the First and Last House Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#intermediate_coordinates</IRI>
+        <Literal>a space seperated list of coordinates relative to the start-node, e.g. 12,23 45,23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_Accessible_At</IRI>
+        <Literal>the Transfer_Point where a Feature is accessible at walking distance. It might e.g. be a Stop_Point, a Building, or even a Road_Element or a Junction, when already beeing walking, or driving with taxi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_Displayed_at</IRI>
+        <Literal>The position where the specific information (icon, image, text) is displayed on the map. It has only a graphical aspect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#junction_Type</IRI>
+        <Literal>The classification of a Junction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lane_Dependant_Validity</IRI>
+        <Literal>For which of the lanes of an associated Road_Element the attribute holds or does not hold.
+A string with a length which at maximum equals the number of lanes present on the associated Road Element + 1, wherby the character on the (n+1)th position refers to the nth lane. 
+
+The allowed characters on the first position of the string are:
+L: Indicating that the lanes are counted from the left side of the Road Element
+R: Indicating that the lanes are counted from the right side of the Road Element
+
+The allowed characters on the nth (n&gt;1) position of the string are:
+0: Indicating that the associated attribute is not valid for this lane
+1: Indicating that the associated attribute is valid for this lane
+
+The left and right side of the Road Element are defined by considering the orientation of the Road Element as defined by start and end bounding point Feature.
+The number of characters does not necessarily have to equal the number of lanes of the associated Road Element +1. In this case th npt represented lanes should be considered as not collected.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lanes</IRI>
+        <Literal>number of lanes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#length</IRI>
+        <Literal>Length expressed in metres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location_Reference</IRI>
+        <Literal>See Location_Reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location_Reference_Code</IRI>
+        <Literal>The identification of a location according to a certain location referencing system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location_Reference_Type</IRI>
+        <Literal>The type of location referencing system employed for the associated Location Reference Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#loop_Time</IRI>
+        <Literal>The time between two public transportation vehicles, moving along a route in a line.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Height_Allowed</IRI>
+        <Literal>See Maximum_Height_Allowed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Length_Allowed</IRI>
+        <Literal>See Maximum_Length_Allowed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Number_of_Lanes</IRI>
+        <Literal>See Maximum_Number_of_Lanes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Speed_Allowed</IRI>
+        <Literal>The maximum speed limit allocated to a Road Element (km /h)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Total_Weight_Allowed</IRI>
+        <Literal>See Maximum_Total_Weight_Allowed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximum_Width_Allowed</IRI>
+        <Literal>See Maximum_Width_Allowed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#minimum_Number_of_Lanes</IRI>
+        <Literal>See Minimum_Number_of_Lanes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#number_of_Lanes</IRI>
+        <Literal>See Number_of_Lanes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#official_Name</IRI>
+        <Literal>The name assigned to any particular Feature by the official organisation responsible for the existence and the maintance of the Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#park_And_Ride</IRI>
+        <Literal>whether the parking facility is provided with Park and Ride facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#park_Type</IRI>
+        <Literal>An indication of the type of a Park</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#parking_Facilities_Available</IRI>
+        <Literal>The number of parking places available.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#paved</IRI>
+        <Literal>An indication of improvement applied to the Road Surface.
+Gravel covered roads considered to be unpaved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#postal_Code</IRI>
+        <Literal>The official code of a postal area as defined by the national postal organisation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#public_Transport_Mode</IRI>
+        <Literal>The type of public transport that is travelling along the line.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#road_Gradient</IRI>
+        <Literal>The road gradient percentage value on the Road Element.
+The gradient shall be expressed in the form of percentage incline. Negative values describe downhill gradients, positive values describe uphill gradients. 
+Only the maximum gradient value at any position along the Road Element need be stored. In case the gradient relates to the entire Road Element, only the maximum gradient value at any position along the Road Element need be stored.
+Uphill and downhill should be defined relative to the orientation of the Road Element when travelling from start to end point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#road_Surface</IRI>
+        <Literal>see Road_Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#road_Surface_Condition</IRI>
+        <Literal>An indication of the quality for transportation purposes of the surface of a Road Element.
+What is considered good and what pure shall be defined from the viewpoint of a car transportation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#road_Surface_Type</IRI>
+        <Literal>The type of surface a paved Road Element has.
+Concrete is a rigid surface
+Asphalt is a flexible surface
+Cobblestone is a  block surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#route_Number</IRI>
+        <Literal>The route Number is the ID-number of a particular route in a given road network as Attributed by a national, sub-national or international organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sand_Area_Type</IRI>
+        <Literal>The type of Beaches/Dune and Sand_Plains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#special_Restriction</IRI>
+        <Literal>See Special_Restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#specific_color</IRI>
+        <Literal>The specific color for this featrue which is displayed on a map.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#speed</IRI>
+        <Literal>speed in (km/h)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#street_Side</IRI>
+        <Literal>the side of a line Feature for which an Attribute applies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#timetable</IRI>
+        <Literal>see Timetable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#toll</IRI>
+        <Literal>See Toll</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#toll_Charge</IRI>
+        <Literal>Fee to be paid to travel on (section of) a toll road</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#traffic_Jam_Sensitivity</IRI>
+        <Literal>See Traffic_Jam_Sensitivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#traffic_flow_Direction</IRI>
+        <Literal>See direction_of_Traffic_Flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#travel_Time</IRI>
+        <Literal>The one-way travel time that a vehicle takes traveling to the next stop point on the route.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#type_of_Public_Transportation_Point</IRI>
+        <Literal>The functional siginficance of a Public Transportation Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#validity_Period</IRI>
+        <Literal>See Validity_Period</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#vehicle_Type</IRI>
+        <Literal>The type of vehicle for which the information is.
+Not meens every vehicle except that vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#waiting_Time</IRI>
+        <Literal>The average waiting time at this stop_point.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#way_Type</IRI>
+        <Literal>See Form_Of_Way</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#weight</IRI>
+        <Literal>Weight in tenths of a metric ton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#width</IRI>
+        <Literal>The width of a Feature expressed in centimetres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Traditional_Woodland/Shrubs</IRI>
+        <Literal>Bushy or herbaceous vegetation with scattered trees. Can represent either woodland degradation or forest regeneration/colonization.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
