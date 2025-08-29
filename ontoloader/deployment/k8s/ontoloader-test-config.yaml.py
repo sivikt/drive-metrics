@@ -16,7 +16,7 @@ data:
         FRESH_UPDATE: true
         ENDPOINT: 'https://10.10.10.231:7200'
         USERNAME: 'admin'
-        PASSWORD: 'T5+@k@rH9YtXBg!9Z-L!r-'
+        PASSWORD: ''
         REPOSITORY_ID: '{REPO_NAME}'
         MAIN_TRIPS_DATA_GRAPH: ''
     BATCH_UPDATE_SIZE: 20
