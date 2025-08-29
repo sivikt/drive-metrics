@@ -11,7 +11,7 @@ data:
       "private_key_id": "",
       "private_key": "",
       "client_email": "dialogflow",
-      "client_id": "109603997318090693168",
+      "client_id": "1096039973180900000",
       "auth_uri": "https://accounts.google.com/o/oauth2/auth",
       "token_uri": "https://oauth2.googleapis.com/token",
       "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
@@ -22,11 +22,11 @@ data:
     DEBUG: False
     SERVER_PORT: 8080
     DMS:
-        ENDPOINT: 'https://api.drv.io'
+        ENDPOINT: 'https://api.dm.local'
     GRAPHDB:
         ENDPOINT: 'https://10.10.10.231:7200'
         USERNAME: 'admin'
-        PASSWORD: 'T5+@DT%LWbKW7yhg!9Z-L!r-'
+        PASSWORD: ''
         REPOSITORY_ID: 'test_repo'
         MAIN_TRIPS_DATA_GRAPH: ''
         QA_STATS_DATA_GRAPH: 'http://www.semanticweb.org/dmonto/autology/trips-qa-data'
